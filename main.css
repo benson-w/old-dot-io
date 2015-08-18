@@ -8,6 +8,6 @@
 }
 
 .holder img {
-  width: 60%; /* Will shrink image to 30% of its original width */
+  width: 50%; /* Will shrink image to 30% of its original width */
   height: auto;
 }​
