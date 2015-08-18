@@ -1,3 +1,13 @@
 #center1 {
   text-align:center;
 }
+
+.holder {
+  width: auto;
+  display: inline-block;
+}
+
+.holder img {
+  width: 30%; /* Will shrink image to 30% of its original width */
+  height: auto;
+}​
