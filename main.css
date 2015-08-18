@@ -2,9 +2,8 @@
   text-align:center;
 }
 
-img {
-    text-align:center;
-    max-width: 30%;
-    height: auto;
-    width: auto\9; /* ie8 */
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
