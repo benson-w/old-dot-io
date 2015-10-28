@@ -11,6 +11,10 @@ div.head { /*this is for the black line at the top of the page*/
     z-index: 100;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     background-color:#FFF7F4 ;
@@ -23,7 +27,7 @@ h1 {
     color: #707070;
     padding-left: 2%;
     text-align: left;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 50px;
 }
 
@@ -48,7 +52,7 @@ div.categories {
     font-size: 64px;
     color: #707070;
     padding-left: 20px;
-    text-align: left;
+    text-align: center;
 }
 
 div.list {

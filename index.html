@@ -1,58 +1,76 @@
 <!DOCTYPE html>
-
+<html>
 <head>
-    <meta name="description" content="home page">
-    <meta name="author" content="Benson W">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="typed.js"></script>
+    <meta content="home page" name="description">
+    <meta content="Benson W" name="author">
+    <link href="stylesheet.css" rel="stylesheet" type="text/css">
+    <script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js">
+    </script>
+    <script src="typed.js">
+    </script><!-- typing script -->
 
-    <!-- typing script -->
-    <script>
+    <script async>
         $(function(){
             $(".typed").typed({
                 strings: ["s^50t^50u^100d^50ent^200", "pro^100g^100r^100ammer", "de^100s^100igner^250", "yo^50LO WOOoo L^50ETS GOOO!^250", "b^50e^50n^50so^20n^500 w"],
                 typeSpeed: 2
             });
         });
-    </script>
+    </script><!-- color script -->
 
-    <!-- color script -->
-    <script>
+    <script async>
     $(document).ready(function(){
-        $(".list").hover(function(){
-            $(this).css("background-color", "yellow");
+        $(".me").hover(function(){
+            $(".me").css("color", "#FFCC00");
             }, function(){
-            $(this).css("background-color", "pink");
+            $(".me").css("color", "#707070");
             });
         });
     </script>
 
+    <script async>
+    $(document).ready(function(){
+        $(".projects").hover(function(){
+            $(".projects").css("color", "#FF99CC");
+            }, function(){
+                $(".projects").css("color", "#707070");
+            });
+        });
+    </script>
+
+    <script async>
+    $(document).ready(function(){
+        $(".other").hover(function(){
+            $(".other").css("color", "#00CCFF");
+            }, function(){
+                $(".other").css("color", "#707070");
+            });
+        });
+    </script>
+
+    <title>
+    </title>
 </head>
+
 <body>
-
-    <div class="head"></div>
-    <h1>
-        <div style="box"></div>
-        <span class="typed"></span>
-    </h1>
-
+    <div class="head">
+    </div><h1></h1>
+    <div style="box">
+        <h1><span class="typed"></span>
+        </h1>
+    </div>
     <!-- <div class="links">home, github, replace me with icons</div> -->
-
     <div class="categories">
-        <span class="me">me</span>
-        <span class="projects">projects</span>
-        <span class="other">other</span>
+        <span class="me">me</span> <span class="projects">projects</span> <span class=
+        "other">other</span>
     </div>
 
     <div class="list">
-        github project1 project2 resume project3 project4 linkedin project5
+        <a href= "https://github.com/benson-w/"><span class="me">github</span></a> <span class="projects">project 1</span> <span class="projects">project 2</span> <span class="me">resume</span> <span class="projects">project 3</span> <span class="projects">project 4</span> <span class="me">linkedIn</span> <span class="projects">project 5</span>
     </div>
 
     <div class="footer">
-
     </div>
 </body>
-
-
 </html>
