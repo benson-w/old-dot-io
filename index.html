@@ -24,7 +24,8 @@
         $(".me").hover(function(){
             $(".me").css("color", "#FFCC00");
             }, function(){
-            $(".me").css("color", "#707070");
+            $(".me").css("color", "#707070"),
+            $("a .github").css("color", "purple");
             });
         });
     </script>
@@ -34,7 +35,8 @@
         $(".projects").hover(function(){
             $(".projects").css("color", "#FF99CC");
             }, function(){
-                $(".projects").css("color", "#707070");
+                $(".projects").css("color", "#707070"),
+                $("a .pebble").css("color", "#66CCFF");
             });
         });
     </script>
@@ -54,20 +56,38 @@
 </head>
 
 <body>
-    <div class="head">
-    </div><h1></h1>
+    <div class="head"></div>
+
+
+    <h1>
+    </h1>
+
+<!-- testing -->
+    <div class="sidebar"><div class="sidecontent">
+        <img src="ghlogo.png" alt="github"><br>
+        e<br>
+        s<br>t</div></div>
+
+
     <div style="box">
         <h1><span class="typed"></span>
         </h1>
     </div>
-    <!-- <div class="links">home, github, replace me with icons</div> -->
+
     <div class="categories">
         <span class="me">me</span> <span class="projects">projects</span> <span class=
         "other">other</span>
     </div>
 
     <div class="list">
-        <a href= "https://github.com/benson-w/"><span class="me">github</span></a> <span class="projects">project 1</span> <span class="projects">project 2</span> <span class="me">resume</span> <span class="projects">project 3</span> <span class="projects">project 4</span> <span class="me">linkedIn</span> <span class="projects">project 5</span>
+        <a href= "https://github.com/benson-w/"><span class="me github">github</span></a>
+        <span class="projects">project</span>
+        <a href ="https://github.com/Salil999/ECEBHackathon"><span class="projects pebble">pebble</span></a>
+        <span class="me">resume</span>
+        <span class="projects">project 3</span>
+        <span class="projects">project 4</span>
+        <span class="me">linkedIn</span>
+        <span class="projects">project 5</span>
     </div>
 
     <div class="footer">

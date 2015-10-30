@@ -11,8 +11,37 @@ div.head { /*this is for the black line at the top of the page*/
     z-index: 100;
 }
 
-a {
+div.sidebar {
+    background-color:rgba(0, 0, 0, 0.1);
+    position:fixed;
+    height: 100%;
+    right:0;
+    float: right;
+    top: 0;
+    width:80px;
+    z-index:1000;
+    margin: 0;
+}
+
+div.sidecontent{
+    color:#FFF7F4;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 100;
+    font-family: monospace;
+}
+
+a:hover, a:visited, a:link, a:active
+{
     text-decoration: none;
+}
+
+a .github {
+    color: purple;
+}
+
+a .pebble {
+    color:#66CCFF;
 }
 
 body {
@@ -49,10 +78,11 @@ div.links {
 div.categories {
     font-family: 'Open Sans', sans-serif;
     font-weight:300;
-    font-size: 64px;
+    font-size: 24px;
     color: #707070;
     padding-left: 20px;
-    text-align: center;
+    text-align: left;
+    /*background-color:rgba(0, 0, 0, 0.1);*/
 }
 
 div.list {
