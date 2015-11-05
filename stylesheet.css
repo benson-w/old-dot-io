@@ -26,9 +26,6 @@ div.sidebar {
 div.sidecontent{
     color:#FFF7F4;
     text-align: center;
-    font-size: 60px;
-    font-weight: 100;
-    font-family: monospace;
 }
 
 a:hover, a:visited, a:link, a:active
@@ -36,12 +33,21 @@ a:hover, a:visited, a:link, a:active
     text-decoration: none;
 }
 
+img{
+    max-width:64px;
+    max-height:64px;
+    width:auto;
+    height:auto;
+}
+
 a .github {
     color: purple;
+    opacity: 60%;
 }
 
 a .pebble {
     color:#66CCFF;
+    opacity: 60%;
 }
 
 body {
