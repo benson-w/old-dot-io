@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Fofer';
+    src: url('../fonts/Fofer.otf'); /*URL to font*/
+}
+
+h1 {
+    font-family: Fofer, sans-serif;
+    font-size: 300%;
+    color: #555555;
+}
+
+h2 {
+    font-family: Fofer, sans-serif;
+    font-size: 100%;
+    color: #D6D6D6
+}
+
+body {
+    font-family: sans-serif;
+    color: #D0D0D0;
+    font-size:100%;
+    padding-left: 8%;
+}
+
+.remo a {
+    text-decoration: none;
+    color: #D0D0D0;
+}
