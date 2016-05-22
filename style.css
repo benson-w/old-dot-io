@@ -26,3 +26,15 @@ body {
     text-decoration: none;
     color: #D0D0D0;
 }
+
+#rectangle{
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    position: absolute;
+    z-index:-1;
+    left: 5%;
+    top: 1%;
+    background-color: #F9F9F9;
+    opacity: .2;
+}
