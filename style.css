@@ -38,3 +38,13 @@ body {
     background-color: #F9F9F9;
     opacity: .2;
 }
+
+img {
+    position: fixed;
+    bottom: 0;
+    right: 10%;
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+}
